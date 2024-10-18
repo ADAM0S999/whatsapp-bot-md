@@ -24,7 +24,7 @@ bot.addCommand(
     })
     const [date, time] = getDate()
     let CMD_HELP = `╭────────────────╮
-						ADAM
+						ʟᴇᴠᴀɴᴛᴇʀ
 ╰────────────────╯
 ![Picture](https://images.app.goo.gl/ji7iX5UoAECy1cEH8)  <!-- Added image link here -->
 
