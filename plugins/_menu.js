@@ -12,11 +12,12 @@ bot.addCommand(
     });
 
     const [date, time] = getDate();
-    let CMD_HELP = `
-╭────────────────╮
-                ADAM
+    let CMD_HELP = `╭────────────────╮
+						ʟᴇᴠᴀɴᴛᴇʀ
 ╰────────────────╯
-![ADAM's Pic](https://images.app.goo.gl/ji7iX5UoAECy1cEH8)
+
+![Picture](https://images.app.goo.gl/ji7iX5UoAECy1cEH8)  <!-- Added image link here -->
+
 ╭────────────────
 │ Prefix : ${PREFIX}
 │ User : ${message.pushName}
@@ -29,19 +30,19 @@ bot.addCommand(
 │ Uptime : ${getUptime('t')}
 │ Platform : ${getPlatform()}
 ╰────────────────
+╭────────────────
 `;
 
-    sorted.forEach((command, i) => {
-      if (!command.dontAddCommandList && command.pattern !== undefined) {
-        CMD_HELP += `│ ${i + 1}. ${addSpace(i + 1, sorted.length)} ${textToStylist(
+    sorted.map(async (command, i) => {
+      if (command.dontAddCommandList === false && command.pattern !== undefined) {
+        CMD_HELP += `│ ${i + 1} ${addSpace(i + 1, sorted.length)}${textToStylist(
           command.name.toUpperCase(),
           'mono'
         )}\n`;
       }
     });
 
-    CMD_HELP += '╰────────────────';
-
-    return await message.send('' + CMD_HELP + '');
+    CMD_HELP += `╰────────────────`;
+    return await message.send('```' + CMD_HELP + '```');
   }
 );
