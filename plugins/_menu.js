@@ -24,9 +24,9 @@ bot.addCommand(
     })
     const [date, time] = getDate()
     let CMD_HELP = `╭────────────────╮
-						ʟᴇᴠᴀɴᴛᴇʀ
+						dodo
 ╰────────────────╯
-![Picture](https://images.app.goo.gl/ji7iX5UoAECy1cEH8)  <!-- Added image link here -->
+![Picture](https://images.app.goo.gl/ji7iX5UoAECy1cEH8)  <!-- Added image link here --> 'https://t4.ftcdn.net/jpg/06/93/28/55/360_F_693285508_vbAfGdv1NsZVyjaWzivPeUX7TONVnvxA.jpg'
 
 ╭────────────────
 │ Prefix : ${PREFIX}
@@ -94,7 +94,7 @@ bot.addCommand(
       }
     })
     const [date, time] = getDate()
-    let msg = `\`\`\`╭═══ LEVANTER ═══⊷
+    let msg = `\`\`\`╭═══ DODO ═══⊷
 ┃❃╭──────────────
 ┃❃│ Prefix : ${PREFIX}
 ┃❃│ User : ${message.pushName}
