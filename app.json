@@ -1,5 +1,5 @@
 {
-  "name": "levanter@5.2.3",
+  "name": "🎯👤  ᗪ𝔬𝕕Ø  🐣☯",
   "description": "",
   "keywords": ["noedjs"],
   "success_url": "/",
@@ -32,7 +32,7 @@
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
       "required": false,
-      "value": "❤️,LyFE"
+      "value": "❤️🎯👤  ᗪ𝔬𝕕Ø  🐣☯"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
@@ -70,7 +70,7 @@
     "ANTILINK_MSG": {
       "description": "Message send when antilink and action is kick.",
       "required": false,
-      "value": "_Antilink Detected &mention kicked_"
+      "value": "_⭕ᴀɴᴛɪʟɪɴᴋ ᴅᴇᴛᴇᴄᴛᴇᴅ ʙʏʙ ʙʏᴇ👋🏻 &mention _"
     },
     "ANTISPAM_MSG": {
       "description": "Message send when antispam.",
